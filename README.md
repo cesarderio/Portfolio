@@ -1,4 +1,5 @@
-![Banner Image](./public/static/images/hoode.png)
+<!-- ![Banner Image](./public/static/images/hoode.png) -->
+<img src="./public/static/images/hoode.png" alt="Banner Image" width="500">
 
 # Raphael Chookagian's Portfolio
 
