@@ -1,3 +1,5 @@
+![Banner Image](./public/static/images/hoode.png)
+
 # Raphael Chookagian's Portfolio
 
 ## Welcome to My World 🌐
