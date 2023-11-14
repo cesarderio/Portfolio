@@ -12,6 +12,7 @@ const Resume = () => {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-semibold">Raphael C Chookagian</h1>
+      <br />
       <p className="text-lg font-semibold">Cybersecurity | Software Development</p>
       <p>
         <a href="github.com/cesarderio">github.com/cesarderio</a> |{' '}
@@ -21,13 +22,11 @@ const Resume = () => {
 
       <hr className="my-4" />
 
-      <h2 className="text-xl font-semibold">
-        Versatile security operations and software developer
-      </h2>
       <p>
-        Specializing in full-stack JavaScript. Highly skilled and driven, with a background as a
-        combat veteran with previous security clearance. Adaptable team player with international
-        experience and advanced coursework knowledge.
+        Versatile security operations and software developer Specializing in full-stack JavaScript.
+        Highly skilled and driven, with a background as a combat veteran with previous security
+        clearance. Adaptable team player with international experience and advanced coursework
+        knowledge.
       </p>
       <br />
 
@@ -39,12 +38,13 @@ const Resume = () => {
         </li>
         <br />
         <li>
-          <b>Skills and Tools</b>: Linux, Windows, Mac, VS Code, Vim, Git, GitHub, Chart.js, React,
-          MongoDB, Node.js, Express.js, Netlify, Heroku, NPM, Bootstrap, React-Bootstrap/Native,
-          PostgreSQL, Gatsby, Expo, AWS, DynamoDB, EC2, Elastic Beanstalk, S3, SQS, SNS, Svelte,
-          Miro, Figma, RDP, SSH, Ubuntu, SpiceWorks, Windows Registry, pfSense, DBAN, Cisco Packet
-          Tracer, Virtualbox, Proxmox, Docker, Splunk, Kali Linux, Autopsy, WireShark, Burp Suite,
-          Nessus, MetaSploit, NoSQL
+          <b>Skills and Tools</b>: AWS, Autopsy, Azure, Bootstrap, BurpSuite, Cisco Packet Tracer,
+          CTF, DBAN, Docker, DynamoDB, EC2, Elastic Beanstalk, Express, Excalidraw, Expo, Figma,
+          Gatsby, Git, GitHub, Hashcat, Heroku, Hydra, Kali, Linux, MacOS, Maltego, Medusa,
+          MetaSploit, Miro, MongoDB, Nessus, Netcat, Netlify, Nmap, Node, NoSQL, NPM, pfSense,
+          PostgreSQL, Proxmox, React, Recon-ng, RDP, S3, Scapy, S.E.T., SNS SpiceWorks, Splunk, SQS,
+          SSH, Svelte, Ubuntu, Veeam, Vercel, Virtualbox, VSCode, Vim, Windows, Windows Registry,
+          WireShark
         </li>
         <br />
         <li>
@@ -53,28 +53,59 @@ const Resume = () => {
       </ul>
 
       <br />
+      <br />
       <h2 className="text-xl font-semibold">PROJECTS</h2>
+
+      <div className="my-4">
+        <h3 className="text-lg font-semibold">NVST, Sep 2023 - github.com/NVST</h3>
+        <ul>
+          <li>
+            A Python-based script that simplifies the process of network scanning and reporting.
+          </li>
+          <li>
+            Automated integration of Nikto, gobuster, and enum4linux based on detected services.
+          </li>
+        </ul>
+      </div>
+      <div className="my-4">
+        <h3 className="text-lg font-semibold">PassTrap, Jul 2023 - github.com/PassTrap</h3>
+        <ul>
+          <li>A user-friendly password manager application built using Python and Tkinter.</li>
+          <li>
+            Provides a secure solution for storing & managing passwords for websites & services.
+          </li>
+        </ul>
+      </div>
       <div className="my-4">
         <h3 className="text-lg font-semibold">DreamHub, Feb 2023 - github.com/DJRMZ</h3>
-        <p>
-          Mobile application to track sleep and utilize AI to create images of users’ dreams. Built
-          with React Native, Expo, Clerk, Supabase, NativeWind, and UI Kitten.
-        </p>
+        <ul>
+          <li>
+            Mobile application to track sleep and utilize AI to create images of users’ dreams.
+          </li>
+          <li>Built with React Native, Expo, Clerk, Supabase, NativeWind, and UI Kitten.</li>
+        </ul>
       </div>
       <div className="my-4">
         <h3 className="text-lg font-semibold">KnonSense, May 2023 - github.com/KnonSense</h3>
-        <p>
-          Simulated the transitioning of a growing company into an office with an integrated Network
-          and Security. Built with VirtualBox, Ubuntu, GitHub, Windows and pfSense VMs, and Cisco
-          Packet Tracer.
-        </p>
+        <ul>
+          <li>
+            Simulated the transitioning of a growing company into an office with an integrated
+            Network and Security.
+          </li>
+          <li>
+            Built with VirtualBox, Ubuntu, GitHub, Windows and pfSense VMs, and Cisco Packet Tracer.
+          </li>
+        </ul>
       </div>
       <div className="my-4">
         <h3 className="text-lg font-semibold">GXTechnic, Jun 2023 - github.com/GXtechnic</h3>
-        <p>
-          Simulated the integration of other businesses into the existing company cloud
-          infrastructure. Built with AWS, pfSense, Windows, Windows Active Directory, and OpenSwan.
-        </p>
+        <ul>
+          <li>
+            Simulated the integration of other businesses into the existing company cloud
+            infrastructure.
+          </li>
+          <li>Built with AWS, pfSense, Windows, Windows Active Directory and OpenSwan.</li>
+        </ul>
       </div>
 
       <h2 className="text-xl font-semibold">EDUCATION</h2>
@@ -95,6 +126,14 @@ const Resume = () => {
       <br />
       <h2 className="text-xl font-semibold">EXPERIENCE</h2>
       <ul className="list-disc pl-6">
+        <br />
+        <li>
+          CodeFellows, Seattle, WA, Teaching Assistant, Oct 2023 – Present
+          <ul className="list-disc pl-6">
+            <li>Mentor and assist students in learning cybersecurity and software development.</li>
+            <li>Work with instructors to optimize teaching methods and assess student progress.</li>
+          </ul>
+        </li>
         <br />
         <li>
           Nordstrom, Seattle, WA, Photographer, Oct 2015 – Dec 2022
